@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/proteinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Protein"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/karbonhidratButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karbonhidrat"
+        android:padding="16dp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/yagButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yağ"
+        android:padding="16dp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/geriButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Geri"
+        android:padding="16dp"
+        android:layout_marginTop="32dp" />
+</LinearLayout>
